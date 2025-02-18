@@ -1,0 +1,52 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  /* Removendo estilos padrões de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Resetando links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Resetando botões */
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  /* Resetando tabelas */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Garantindo que imagens não extrapolem seus containers */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Removendo estilos padrão de inputs e melhorando acessibilidade */
+  input, textarea, select, button {
+    font: inherit;
+  }
+  
