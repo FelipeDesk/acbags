@@ -354,9 +354,6 @@ footer{
         align-items: center;
         text-align: center;
         margin: 15% 5% 5% 5%;
-        margin-top: 15%;
-        margin-bottom: 5%;
-
     }
 
     .banner{
@@ -399,6 +396,14 @@ footer{
 }
 
 @media screen and (max-width: 600px){
+
+    .info{
+        margin-top: 30%;
+    }
+
+    .info h1{
+        font-size: 3rem;
+    }
 
     .products{
         margin: 20px;
