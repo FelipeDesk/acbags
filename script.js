@@ -11,10 +11,17 @@ class MobileNavbar{
     handleClick(){
         console.log(this);
         this.navList.classList.toggle(this.activeClass);
+        this.mobileMenu.classList.toggle(this.activeClass);
     }
 
     addClickEvent(){
         this.mobileMenu.addEventListener("click", this.handleClick);
+        this.navLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                this.navList.classList.remove(this.activeClass);
+                this.mobileMenu.classList.remove(this.activeClass);
+            });
+        });
     }
 
     init(){
